@@ -1,0 +1,5 @@
+Name: '&e&lCOMMON CRATE'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&fCommonc Key'

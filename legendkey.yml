@@ -1,0 +1,5 @@
+Name: '&a&lLEGENDARY CRATE'
+Virtual: true
+Item:
+  Material: LIME_CANDLE
+  Amount: 64

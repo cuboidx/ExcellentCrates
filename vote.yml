@@ -1,0 +1,409 @@
+Name: '&b&lVOTE CRATE'
+Preview_Config: default
+Permission_Required: false
+Opening:
+  Cooldown: 0
+Key:
+  # Sets whether or not keys are required to open this crate.
+  Required: true
+  Ids:
+  - vote
+Block:
+  Positions:
+  - 0,102,-82,dungeons
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: vote
+    Y_Offset: 0.5
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: ELECTRIC_SPARK
+Milestones:
+  Repeatable: false
+Rewards:
+  List:
+    ominous_bottle:
+      Name: '&fDiamond Helmet'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000010000k00ldlkmspb3e9gmct1qcdqn6t3fdlfm8obkc44g0325dphmgobeehmmarjkec500000084000j9cg00ks3idtq6aorkd5nms0g00dm7cr000400g002d5i002jldph74pb1ddkmspo2001motjc000g00o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a2000000401afch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eir4b1aeuh2blug0trr49q6au3k48t248hc49kn8obcd5hi4ej6c5m76p9c49ingt3ic4h3kmrr49q6au3k48t25gl7f8h2o8j5f1q74o9279dnm8jkcls788hq49a6gqbj41kn8pbd41hm2rh0c9ii0sj5cpnn4pr5cggi4b12cdnmorri48t24p31e9llupric5si4vatflenq000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Commands: []
+      Items:
+      - 50000a00566rrde1nmspbeehpgk00mdlkmspb3e9gmct1qcln66q31dpq6qpbeehpgk006dhincpbcec1g053dd5n6aoric5j78ejldph74pb1ddkmspo0000020o02hmmirj5cdp62pjk79o74rrkclhn8qbfdo0000010000k00ldlkmspb3e9gmct1qcdqn6t3fdlfm8obkc44g0325dphmgobeehmmarjkec500000084000j9cg00ks3idtq6aorkd5nms0g00dm7cr000400g002d5i002jldph74pb1ddkmspo2001motjc000g00o00p262rb1ctig0000005001r4d5pn0r31f44g012cdtp6a2000000401afch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eir4b1aeuh2blug0trr49q6au3k48t248hc49kn8obcd5hi4ej6c5m76p9c49ingt3ic4h3kmrr49q6au3k48t25gl7f8h2o8j5f1q74o9279dnm8jkcls788hq49a6gqbj41kn8pbd41hm2rh0c9ii0sj5cpnn4pr5cggi4b12cdnmorri48t24p31e9llupric5si4vatflenq000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5uq35dhmmat00
+      Ignored_For_Permissions: []
+    diamond_shovel:
+      Name: '&fDiamond Chestplate'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn00000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jge9nn8pb3ehkmurg2001motjc000g020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn00000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jge9nn8pb3ehkmurg2001motjc000g020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip003hmmirj5cdp62pjk79i6iobddtn68nr3d1in6t3gdhgn8p80
+      Ignored_For_Permissions: []
+    diamond_pickaxe:
+      Name: '&fDiamond Leggings'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg0000020001801arb9dpim6sj1cpq3korledq6uravchgn8o8300348obdc5jma00000000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ejge9nn8pb3ehkmurg0000020001801arb9dpim6sj1cpq3korledq6uravchgn8o8300348obdc5jma00000000003002m6rrldpq00000044000j9cg01krb9dpim6sj1cpq3kp39c5mmurj4btm6apr7d5n6eso0
+      Ignored_For_Permissions: []
+    diamond_sword:
+      Name: '&fDiamond Boots'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn00000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jge9nn8pb3ehkmurg2001motjc000g020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qeln64sj5c5lmirj70000008300a6qqbeclhn4ob6egt70sjfehim6t39dtn00000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jge9nn8pb3ehkmurg2001motjc000g020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nr2dtnn8so0
+      Ignored_For_Permissions: []
+    diamond_axe:
+      Name: '&fDiamond Sword'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000020c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g000a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622801h2msor8c5n78rb5dpq762g00000420009km8009edk62sjgdpin6so2001motjc0010020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso3009mqqbeclhn4ob6egt76q31e9o6spbjec0000020c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g000a00amqqbeclhn4ob6egt66tbjehnmqnr4c5q622801h2msor8c5n78rb5dpq762g00000420009km8009edk62sjgdpin6so2001motjc0010020009km800aeln64sj5c5lmirj708006r3mdg00200300348obdc5jma0000000k007chkn6s3cc5sgi0049hnn4p88000000g059ti4t35f1q24eh248m24qbkc5m6iop279j62r3jckm24pboehp628hqbchc59rq49enq03nfch78pboegh3k8h25gh6it31dhkm68hqcpgmosr55gh6au3ke9gi4eirfch78pboegh3k8m2ktt24b12cls78sj148t5mup2ehingt1278h58q39ecg6it35dkg66obe41h6a83iclj6usj7cli228hc49hmur3fe8h3k8j4c5p6mnr7e9gni8jtblulqv8000006005cdnnarjk000000880016ip002tmmirj5cdp62pjk79i6iobddtn68nrjetnn4p00
+      Ignored_For_Permissions: []
+    diamond_chestplate:
+      Name: '&fDiamond Pickaxe'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qclj6cqb3d5imsorp00000080005005bdd5n6aoric5j78ej3elpn8rrdbti62t311400ohbecdk62rjkdlimst3j1800000210004qb40057arj2e9im2qr9dpjg4003dhr6o001004000j9cg00kpb6cpkm6qb5dphni0g00dm7cr00040060068hgmqob7ck0000001800ep39edo6oobp14008j3fe9igg00000100ajr49q6au3k48t248hc49kn8obcd5hi4ej6c5m76p9c49ingt3ic4h3kmp2oajnk8itfk07eup2ehingt1278h24b12d5q62r39cch3kpj1dhpmab12cls78sj148t5mup2ehingt1278hc59rq48m24pboehp628hqbdti4t35f1q24eh2ahk6isp0d5q6ar90cdgms832ckg74pb6dtp6epb444h2o8j3dtm6ush278h68obiddfmesj1f4h7qnbtblug00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Commands: []
+      Items:
+      - 180002g019hmurbgdtn6arjkec5005jdd5n6aoric5j78ej5dphmgobeehmmarjkec5001jcclr6ar3j0c018rb9dpim6sj1cpq3ktbec9p6aobbd5n6e000000g600kdlkmspb3e9gmct1qclj6cqb3d5imsorp00000080005005bdd5n6aoric5j78ej3elpn8rrdbti62t311400ohbecdk62rjkdlimst3j1800000210004qb40057arj2e9im2qr9dpjg4003dhr6o001004000j9cg00kpb6cpkm6qb5dphni0g00dm7cr00040060068hgmqob7ck0000001800ep39edo6oobp14008j3fe9igg00000100ajr49q6au3k48t248hc49kn8obcd5hi4ej6c5m76p9c49ingt3ic4h3kmp2oajnk8itfk07eup2ehingt1278h24b12d5q62r39cch3kpj1dhpmab12cls78sj148t5mup2ehingt1278hc59rq48m24pboehp628hqbdti4t35f1q24eh2ahk6isp0d5q6ar90cdgms832ckg74pb6dtp6epb444h2o8j3dtm6ush278h68obiddfmesj1f4h7qnbtblug00000c00aorfeln78000000gg002d5i006bdd5n6aoric5j78ej4d5gmqrrechfn0qb3ddgngp80
+      Ignored_For_Permissions: []
+    diamond_helmet:
+      Name: '&fDiamond Axe'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u80000020001801arb9dpim6sj1cpq3korledq6uravchgn8o890064arj3d1gmst3dcln78soa000000g80016ip0019qmsojiclgmmqbecs1000rcepm0008010004qb40056apj6d5hmipbecdsg4003dhr6o001001g01i4c5mm2pr50000000a003m8qbje1m62u890024orrick4000000802kup2ehingt1278h24b12d5q62r39cch3kpj1dhpmab12cls78sj148t5m8m2ktt24nbt01rnm8jkcls788hq48h2o8j9ehgmoqb348t6cobcediio8j5f1q74o9279dnm8jkcls788hq4b1aeuh25gh6au3ke9gi4eirfch78pboegh3k8ikd1kn6839ehimq833c5n20oj541p6apjfe9jmap1148m24orfdhnn48hq49i62sjbbtjn4obp49ulqvatfk000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u80000020001801arb9dpim6sj1cpq3korledq6uravchgn8o890064arj3d1gmst3dcln78soa000000g80016ip0019qmsojiclgmmqbecs1000rcepm0008010004qb40056apj6d5hmipbecdsg4003dhr6o001001g01i4c5mm2pr50000000a003m8qbje1m62u890024orrick4000000802kup2ehingt1278h24b12d5q62r39cch3kpj1dhpmab12cls78sj148t5m8m2ktt24nbt01rnm8jkcls788hq48h2o8j9ehgmoqb348t6cobcediio8j5f1q74o9279dnm8jkcls788hq4b1aeuh25gh6au3ke9gi4eirfch78pboegh3k8ikd1kn6839ehimq833c5n20oj541p6apjfe9jmap1148m24orfdhnn48hq49i62sjbbtjn4obp49ulqvatfk000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btgngp80
+      Ignored_For_Permissions: []
+    diamond_leggings:
+      Name: '&fDiamond Shovel'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u80000020001801arb9dpim6sj1cpq3korledq6uravchgn8o890064arj3d1gmst3dcln78soa000000g80016ip0019qmsojiclgmmqbecs1000rcepm0008010004qb40056apj6d5hmipbecdsg4003dhr6o001001g01i4c5mm2pr500000000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5usr8dtr6ar00
+      Commands: []
+      Items:
+      - a0000k00acdnmqs3fdpimst3j1801crb9dpim6sj1cpq3kpbecdk62rjkdlimst3j1800cr35epimoso300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000041g053dd5n6aoric5j78ej5cpj6ior9cln66u80000020001801arb9dpim6sj1cpq3korledq6uravchgn8o890064arj3d1gmst3dcln78soa000000g80016ip0019qmsojiclgmmqbecs1000rcepm0008010004qb40056apj6d5hmipbecdsg4003dhr6o001001g01i4c5mm2pr500000000001g01b3dtqmst000000220009km800odlkmspb3e9gmct1qchkm2rbfdpi5usr8dtr6ar00
+      Ignored_For_Permissions: []
+    diamond_boots:
+      Name: '&fDiamond Hoe'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qedkmoqqvehnnaor80000008300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jldph74pb1ddkmspo2001motjc000g020009km800aedkmoqqvehnnaor808006r3mdg00200300348obdc5jma00000000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btk6up80
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762g02pmmirj5cdp62pjk79imsor8c5n78rb5dpq762g00pm6atj5dhpg600kdlkmspb3e9gmct1qedkmoqqvehnnaor80000008300a6qqbeclhn4ob6egt7arj2e9im2qr9dpjg0000040002g02lmmirj5cdp62pjk79hnasrkdtmlup31ehggi00c8ln66q31dpq6qpbeehpgk0000010g002d5i002jldph74pb1ddkmspo2001motjc000g020009km800aedkmoqqvehnnaor808006r3mdg00200300348obdc5jma00000000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3kp39c5mmurj4btk6up80
+      Ignored_For_Permissions: []
+    golden_apple:
+      Name: Golden Apple
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000g10004qb400b6qqbeclhn4ob6egt6errcchimsnr1e1o6op80
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000g10004qb400b6qqbeclhn4ob6egt6errcchimsnr1e1o6op80
+      Ignored_For_Permissions: []
+    block_of_iron:
+      Name: '&fIron Ingot'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln7800000g0g002d5i0053dd5n6aoric5j78ej9e9nmsnr9dpjmut00
+      Commands: []
+      Items:
+      - k0000c00aorfeln7800000g0g002d5i0053dd5n6aoric5j78ej9e9nmsnr9dpjmut00
+      Ignored_For_Permissions: []
+    diamond:
+      Name: Diamond
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 180000o00lhmutbeeg00000810004qb4008mqqbeclhn4ob6egt68qb1dlnmsp00
+      Commands: []
+      Items:
+      - 180000o00lhmutbeeg00000810004qb4008mqqbeclhn4ob6egt68qb1dlnmsp00
+      Ignored_For_Permissions: []
+    obsidian:
+      Name: '&fObsidian'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: a00006005cdnnarjk000008080016ip0029mmirj5cdp62pjk79nm4sr9chkm2rg0
+      Commands: []
+      Items:
+      - a00006005cdnnarjk000008080016ip0029mmirj5cdp62pjk79nm4sr9chkm2rg0
+      Ignored_For_Permissions: []
+    end_crystal:
+      Name: End Crystal
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: 500003002m6rrldpq00000404000j9cg01arb9dpim6sj1cpq3kpbechfm6sjpedq62r00
+      Commands: []
+      Items:
+      - 500003002m6rrldpq00000404000j9cg01arb9dpim6sj1cpq3kpbechfm6sjpedq62r00
+      Ignored_For_Permissions: []
+    smithing_template:
+      Name: Smithing Template
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0000c00aorfeln780000010g002d5i00bbdd5n6aoric5j78ejeclq6gpbid5q6anrle1jn4ob4clfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Commands: []
+      Items:
+      - k0000c00aorfeln780000010g002d5i00bbdd5n6aoric5j78ejeclq6gpbid5q6anrle1jn4ob4clfn6rb9ehk6irj7btq6arbgdhgn8p80
+      Ignored_For_Permissions: []
+    energy_2x:
+      Name: Energy 2x
+      Weight: 25.0
+      Rarity: common
+      Broadcast: true
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig1mbr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4bgr91u9mjgr91uag34q5ikf40h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278hcjam9mgge3d404359jodkhvgr96v1midsl7v1mi3i4vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400009c001g01b3dtqmst000000420009km800odlkmspb3e9gmct1qdpgnat39dhqn6nrjd1imor00
+      Commands: []
+      Items:
+      - k0001800korfdlo6urj5dpq762002lmmirj5cdp62pjk79hnasrkdtmlurj1dlig1mbr49ingt3ic4h3kmrr49h6ur3448t78sjlckm24orfdhnn48hq49gn2tb148m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq4bgr91u9mjgr91uag34q5ikf40h2o8jldpi6asjcd5n6ap1279j62r3jcluioup2cdnmorri48t24pric5si4b12d5q62r39cch3kpj1dhpmab12ehingt1278hcjam9mgge3d404359jodkhvgr96v1midsl7v1mi3i4vat5gh78pboegh3k8h2fk1g06rdd5n6aoric5j78ej3elpn8rrdbtmmup35dhfm8obkc400009c001g01b3dtqmst000000420009km800odlkmspb3e9gmct1qdpgnat39dhqn6nrjd1imor00
+      Ignored_For_Permissions: []
+    cash_1k:
+      Name: '&aBagpack of &b2000$'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Win_Limit:
+        Player:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+        Global:
+          Enabled: false
+          Amount: -1
+          Cooldown: 0
+          CooldownStep: 1
+      Preview: k0001800korfdlo6urj5dpq762g025mmirj5cdp62pjk79o74rr6d5m6a2000hn62rb50064gpb1ch262t31c9gn6p8900570sjfe1in4t39clpgk000000gg004dpgmqp8011q6au3kelp6aso8002ncobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr5kl2d69d58qpgb9l5kqidf996gjbqako4sqimdlcj4l9gb5a6mtqqd956ojbaakqksuipf97k8r3cb5l6mcqd8hm6gjak95sksuid6577kkjdb9l66tqqdl8j0mi78pk4sqj7656miihpcpc30f801c004qb4000001040ie91kv98ogppbo0005ak803004005bdd5n6aoric5j78ej3elpn8rrdbtn62rb5031nm8j5f1q74o9279dnm8j2dtm688hqcpgmosr55gh66rrcdtp24eh2ctp6apbe48m24qbkc5m6iop279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr55gh76t3id5lmat38e9nnapr848t6cobcediio8jkcls788hq49162prgc5hmm83fcog24b12eln68pbidhkmspb448t6cobcedinqb3r49hmur3fe8h3k8j1e5qm28hc49kn8obcd5hi4ej6c5m76p9c49q6au3k48t24chg60o288jtbkm24t35f1q24eh249ugk00ldlkmspb3e9gmct1qcdqn6t3fdlfm8obkc45001r4d5pn0r31f440012ec5mma063fch78pboegh3k8h25gh6au3ke9gi4eirfch78pboegh3k8i2c5jn0ob3dcg6uph048m24orfdhnn48hq49jn4pb5doh2o8j2dtm688hqcpgmosr55gh6it31dhkm68hqcpgmosr55gh7arj4clp6oqbecli24ej6c5m76p9c49pn8sj9ddin8q3idtqmeq1279j62r3jckm24rr2cpqn6or1ehim88hqcpgmosr5fkm7m8jkcls788hq48p30c1g4gh2o8j3dtm6ush278h62sblc4h2o8j9ehgmoqb348t6cobcedinqnbt005002ijddqmor2fetn6asg80024sobdck00oi35c5i48obkc5h62sr51800kk3idto6asjkd5in628011q6au3kelp6asoa00000088002lcobcelig1d35f5530miod0o68m2adhhnii9mclskkl2j61m4uibae0rkirimf5h46i9m95mmgc34910jcj3p74o5km3861i5gijccdsjat31asqmom9j99k5krihelh6qlhg9gpl4r3591932ordalr5kl2d69d58qpgb9l5kqidf996gjbqako4sqimdlcj4l9gb5a6mtqqd956ojbaakqksuipf97k8r3cb5l6mcqd8hm6gjak95sksuid6577kkjdb9l66tqqdl8j0mi78pk4sqj7656miihpcpc30f80005g00i9cg0000040g29p46jt532375f0000lah00c000003002m6rrldpq00000044000j9cg01arb9dpim6sj1cpq3ks3cc5smasivd1im2p00
+      Commands:
+      - money give %player_name% 2000
+      Items: []
+      Ignored_For_Permissions: []
+Last_Opener: Sivadxv
+Last_Reward: Ominous Bottle
+Item:
+  Material: PLAYER_HEAD
+  SkinURL: 7a3c8c6d3aaa96363d4bef2578f1024781ea14e9d85a9dcfc0935847a6fb5c8d
+  Name: '&fVote Crate'
+  Item_Flags:
+  - HIDE_ADDITIONAL_TOOLTIP

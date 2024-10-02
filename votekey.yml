@@ -1,0 +1,5 @@
+Name: '&b&lVOTE CRATE'
+Virtual: true
+Item:
+  Material: TRIPWIRE_HOOK
+  Name: '&fVote Key'
